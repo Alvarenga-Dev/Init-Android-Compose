@@ -1,0 +1,11 @@
+[PT-br]
+
+No Android Compose, o termo "Dynamic Content" refere-se à capacidade de atualizar dinamicamente o conteúdo da interface do usuário com base em alterações de estado ou eventos. Permite que os elementos visuais sejam modificados ou adaptados em tempo real, proporcionando uma experiência de usuário interativa e responsiva.
+
+No Jetpack Compose, você define a interface do usuário de forma declarativa, utilizando funções anotadas com @Composable. Essas funções são responsáveis por criar e exibir os elementos visuais na tela. Com o suporte a Dynamic Content, você pode alterar o conteúdo exibido dentro de um @Composable com base em variáveis de estado, eventos ou quaisquer outras condições que possam ocorrer durante a execução do aplicativo.
+
+Por exemplo, suponha que você tenha uma lista de itens que deve ser exibida na interface do usuário. Com o Dynamic Content, você pode atualizar essa lista em tempo real, adicionando, removendo ou modificando os itens, e o sistema de composição (Compose) será responsável por atualizar automaticamente a interface do usuário para refletir essas alterações.
+
+Além disso, o Dynamic Content também pode ser usado para controlar a visibilidade de componentes ou alterar suas propriedades com base em eventos ou estados. Por exemplo, você pode exibir ou ocultar um botão com base em uma condição específica, ou alterar a cor de fundo de um componente quando um evento ocorrer.
+
+O Jetpack Compose facilita a criação de interfaces do usuário dinâmicas e responsivas, permitindo que você atualize e adapte o conteúdo visual com facilidade, conforme necessário. Com o suporte ao Dynamic Content, você pode criar experiências interativas e envolventes para os usuários do seu aplicativo Android.

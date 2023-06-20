@@ -1,0 +1,11 @@
+[PT-br]
+
+No contexto do desenvolvimento de aplicativos Android com o Jetpack Compose, o termo "recomposition" se refere ao processo em que o sistema de composição (Compose) atualiza a interface do usuário em resposta a alterações de estado ou eventos.
+
+No Jetpack Compose, você descreve a interface do usuário de forma declarativa, por meio da composição de elementos visuais em uma função chamada @Composable. Cada vez que ocorre uma alteração de estado relevante para a interface do usuário, o sistema de composição executa a função @Composable novamente para calcular a nova representação visual da interface.
+
+Durante esse processo, o sistema de composição realiza uma "recomposição" dos componentes visuais, onde somente as partes afetadas pelas alterações de estado são atualizadas. Em vez de recriar a interface do usuário inteira a cada alteração de estado, o Compose identifica e atualiza apenas as partes necessárias, tornando o processo mais eficiente e responsivo.
+
+A recomposition é uma das vantagens principais do Jetpack Compose em relação às abordagens tradicionais, como o uso do XML para criar interfaces no Android. Com a recomposition, você pode se concentrar apenas na lógica e na descrição da interface, enquanto o sistema de composição cuida da atualização eficiente da interface do usuário, garantindo uma experiência fluida e dinâmica para o usuário final.
+
+Em resumo, a recomposition no Android Compose é o processo de atualização da interface do usuário em resposta a alterações de estado, onde somente as partes afetadas são recalculadas e atualizadas, proporcionando uma experiência de usuário mais eficiente e responsiva.
